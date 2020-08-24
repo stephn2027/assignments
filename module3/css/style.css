@@ -1,5 +1,77 @@
 body {
 	font-size: 16px;
 	color: #fff;
-	background-color: #61122f;
+	background-color: #grey;
 	font-family:'Oxygen', sans-serif;
+}
+#header-nav{
+	background-color: green;
+	border-radius: 0;
+	border:0;
+}
+.navbar-brand {
+	padding-top: auto;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #e7e7e7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+.navbar-brand h1 { /*Restaurant name*/
+	font-family: "Oxygen", serif;
+	color: #f7f8fc;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+
+}
+#chicken{
+	background-color: grey;
+}
+#chicken span, div{
+	color: black;
+}
+#main-content h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+/*large devices only*/
+@media (min-width:1200px){
+
+} 
+/*meduim devices*/
+@media (max-width: 1199px ) and (min-width:992px){
+
+}
+/*small devices*/
+@media (min-width: 768px) and (max-width: 991px){
+	
+	
+}
+/*extra small devices*/
+@media (max-width: 767px){
+	.navbar-brand h1{
+		padding-top: -10px;
+		font-size: 4vw;
+	}
+}
