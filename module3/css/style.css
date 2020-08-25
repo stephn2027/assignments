@@ -1,8 +1,9 @@
 body {
 	font-size: 16px;
-	color: #fff;
+	
 	background-color: #grey;
 	font-family:'Oxygen', sans-serif;
+	box-sizing: border-box;
 }
 #header-nav{
 	background-color: green;
@@ -20,14 +21,14 @@ body {
 	margin-top: 10px;
 }
 #nav-list a{
-	color: #951C49;
+	color: grey;
 	text-align: center;
 }
 #nav-list a:hover {
 	background: #e7e7e7;
 }
 #nav-list a span{
-	font-size: 1.8em;
+	font-size: .8em;
 }
 .navbar-brand h1 { /*Restaurant name*/
 	font-family: "Oxygen", serif;
@@ -42,17 +43,38 @@ body {
 }
 
 
+
+#chicken h4,#beef h4, #sushi h4{
+	text-align: center;
+	padding-bottom: 0;
+	padding-top: 10px;
+
 }
-#chicken{
-	background-color: grey;
-}
-#chicken span, div{
-	color: black;
-}
+
+
+
+
+
 #main-content h2{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 600;
+}
+.sub-content{
+	background-color: grey;
+	margin-bottom: 20px;
+
+	
+	
+}
+.sub-content span, div{
+font-weight: 800 black solid;
+font-family: arial black;
+padding:0 10px 10px 10px;
+
+}
+.subcontent span{
+	text-align: left;
 }
 
 /*large devices only*/
